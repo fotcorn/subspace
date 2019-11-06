@@ -398,7 +398,7 @@ WGCLIENT
 	}{
 		datadir,
 		profile,
-		httpHost,
+		BestDomain(),
 	})
 	if err != nil {
 		logger.Warn(err)
